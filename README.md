@@ -52,23 +52,23 @@ usage
 
 license
 -------
-lua-debugger - MIT
-RemDebug - http://www.keplerproject.org/remdebug/license.html (~MIT)
-wxWidget - wxWindows Licence - http://www.wxwidgets.org/about/newlicen.htm (~LGPL)
-wxScintilla - same as wxWindows/wxWidget
-icons - Public Domain - http://tango.freedesktop.org/Tango_Desktop_Project
+* lua-debugger - MIT
+* RemDebug - http://www.keplerproject.org/remdebug/license.html (~MIT)
+* wxWidget - wxWindows Licence - http://www.wxwidgets.org/about/newlicen.htm (~LGPL)
+* wxScintilla - same as wxWindows/wxWidget
+* icons - Public Domain - http://tango.freedesktop.org/Tango_Desktop_Project
 
 credits
 -------
-RemDebug - http://www.keplerproject.org/remdebug
-wxWidget - http://www.wxwidgets.org/
-wxScintilla - http://wxcode.sourceforge.net/components/wxscintilla/
-wxFormBuilder - http://wxformbuilder.org/
-cmake - http://www.cmake.org/
-Tango Desktop Project - http://tango.freedesktop.org/Tango_Desktop_Project
-boost - http://www.boost.org/
-libpoco - http://pocoproject.org/
+* RemDebug - http://www.keplerproject.org/remdebug
+* wxWidget - http://www.wxwidgets.org/
+* wxScintilla - http://wxcode.sourceforge.net/components/wxscintilla/
+* wxFormBuilder - http://wxformbuilder.org/
+* cmake - http://www.cmake.org/
+* Tango Desktop Project - http://tango.freedesktop.org/Tango_Desktop_Project
+* boost - http://www.boost.org/
+* libpoco - http://pocoproject.org/
 
 similar tools
 -------------
-https://github.com/jjensen/lua-tilde - C# windows
+* https://github.com/jjensen/lua-tilde - C# windows
