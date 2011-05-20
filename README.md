@@ -72,3 +72,4 @@ credits
 similar tools
 -------------
 * https://github.com/jjensen/lua-tilde - C# windows
+* http://code.google.com/p/lua-debugger/ - Toy debugger
