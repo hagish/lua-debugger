@@ -105,11 +105,13 @@ std::string DebugThread::receive(unsigned int len)
 {
 	std::string buffer;
 
-	char chunk[512];
+	const size_t BUFFER_SIZE = 512;
+
+	char chunk[BUFFER_SIZE];
 
 	while (buffer.size() < len)
 	{
-		int remaining = std::min(len - buffer.size(), (unsigned int) 512);
+		int remaining = std::min(static_cast<size_t>(len - buffer.size()), BUFFER_SIZE);
 		client.read((char *) &chunk, remaining);
 		buffer += std::string((const char *) &chunk, (size_t) remaining);
 	}

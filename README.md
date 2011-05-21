@@ -73,3 +73,7 @@ similar tools
 -------------
 * https://github.com/jjensen/lua-tilde - C# windows
 * http://code.google.com/p/lua-debugger/ - Toy debugger
+
+todo look at
+------------
+* https://github.com/norman/lua-devtools/blob/master/debugger.lua

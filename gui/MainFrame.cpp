@@ -33,7 +33,7 @@ void MainFrame::OnAddDebugThread(wxCommandEvent &event)
 	threadPanelMapping[thread] = panel;
 
 	m_notebook->AddPage(panel,
-			wxString::Format(wxT("0x%x"), (unsigned int) thread));
+			wxString::Format(wxT("0x%x"), (ptrdiff_t) thread));
 
 	panel->assignDebugThread(thread);
 	thread->assignDebugPanel(panel);

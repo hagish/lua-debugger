@@ -11,16 +11,16 @@
 #include <iostream>
 #include <queue>
 
-#include "Poco/Thread.h"
-#include "Poco/Runnable.h"
-#include "Poco/Mutex.h"
+#include <Poco/Thread.h>
+#include <Poco/Runnable.h>
+#include <Poco/Mutex.h>
 
 #include "DebugPanel.h"
 
-#include "Poco/Net/SocketAddress.h"
-#include "Poco/Net/StreamSocket.h"
-#include "Poco/Net/SocketStream.h"
-#include "Poco/StreamCopier.h"
+#include <Poco/Net/SocketAddress.h>
+#include <Poco/Net/StreamSocket.h>
+#include <Poco/Net/SocketStream.h>
+#include <Poco/StreamCopier.h>
 
 class DebugThread: public Poco::Runnable
 {

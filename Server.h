@@ -10,9 +10,9 @@
 #include "DebugThread.h"
 #include "MainFrame.h"
 
-#include "Poco/Thread.h"
-#include "Poco/Runnable.h"
-#include "Poco/Net/ServerSocket.h"
+#include <Poco/Thread.h>
+#include <Poco/Runnable.h>
+#include <Poco/Net/ServerSocket.h>
 
 class Server: public Poco::Runnable
 {
